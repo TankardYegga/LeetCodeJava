@@ -1,4 +1,4 @@
-package java;
+package java_basic;
 
 /**
  * Description: JVM

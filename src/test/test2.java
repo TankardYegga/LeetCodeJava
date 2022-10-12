@@ -12,12 +12,14 @@ import com.sun.org.apache.xalan.internal.res.XSLTErrorResources;
  */
 public class test2 {
     public static void main(String[] args) {
-        System.out.println("ss1");
-        java.lang.String s = "";
-        System.out.println(s);
-
-        ClassLoaderTest c = new ClassLoaderTest();
-        ClassLoader classLoader = c.getClass().getClassLoader();
-        System.out.println(classLoader);
+//        System.out.println("ss1");
+//        java.lang.String s = "";
+//        System.out.println(s);
+//
+//        ClassLoaderTest c = new ClassLoaderTest();
+//        ClassLoader classLoader = c.getClass().getClassLoader();
+//        System.out.println(classLoader);
+        char ch = 0;
+        System.out.println("0 is char:" + ch);
     }
 }
