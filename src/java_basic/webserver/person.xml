@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persons>
+    <person>
+        <name>赵兴福</name>
+        <age>45</age>
+    </person>
+    <person>
+        <name>何柏廷斯</name>
+        <age>25</age>
+    </person>
+</persons>
+
