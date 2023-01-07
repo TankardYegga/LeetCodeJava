@@ -148,9 +148,11 @@ public class q35_findKthSmallNumber {
                 return shortArr[kth - longArr.length - 1];
             }
             // 判断 长数组 中的 K - |短数组| 这个位置
-            if(longArr[kth - shortArr.length - 1] >　){
-
+            if(longArr[kth - shortArr.length - 1] > shortArr[shortArr.length - 1]){
+                return longArr[kth - shortArr.length - 1];
             }
+            return getUpMedian(shortArr, kth - longArr.length,  shortArr.length - 1,
+                    longArr, kth - shortArr.length, longArr.length - 1);
         }
     }
 
