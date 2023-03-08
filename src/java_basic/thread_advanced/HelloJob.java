@@ -19,28 +19,28 @@ package java_basic.thread_advanced;
 
 import java.util.Date;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.quartz.Job;
-import org.quartz.JobExecutionContext;
-import org.quartz.JobExecutionException;
+//import org.slf4j.Logger;
+//import org.slf4j.LoggerFactory;
+//import org.quartz.Job;
+//import org.quartz.JobExecutionContext;
+//import org.quartz.JobExecutionException;
 
 
-public class HelloJob implements Job {
+//public class HelloJob implements Job {
 
-    private static Logger _log = LoggerFactory.getLogger(HelloJob.class);
+//    private static Logger _log = LoggerFactory.getLogger(HelloJob.class);
+//
+//    public HelloJob() {
+//    }
+//
+//
+//    public void execute(JobExecutionContext context)
+//        throws JobExecutionException {
+//
+//        System.out.println("-------------start---------------");
+//        // Say Hello to the World and display the date/time
+//        System.out.println("Hello World! - " + new Date());
+//        System.out.println("--------------end----------------");
+//    }
 
-    public HelloJob() {
-    }
-
-
-    public void execute(JobExecutionContext context)
-        throws JobExecutionException {
-
-        System.out.println("-------------start---------------");
-        // Say Hello to the World and display the date/time
-        System.out.println("Hello World! - " + new Date());
-        System.out.println("--------------end----------------");
-    }
-
-}
+//}
